@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FitFood</string>
+    <string name="textview1">GetStarted</string>
+    <string name="textview2">Next</string>
+    <string name="label_Number2">Number 02</string>
+    <string name="editTextTextEmailAddress">abc@gmail.com</string>
+    <string name="editTextTextPassword">abc123</string>
+    <string name="textView12">Vegan Food Recipe</string>
+    <string name="edittextName">Name</string>
+    <string name="edittextEmail">Email</string>
+    <string name="edittextusername">UserName</string>
+    <string name="edittextpssword">Password</string>
+    <string name="edittextaddress">Address</string>
+    <string name="edittextcn">Contact Number</string>
+    <string name="scan">Scan a Meal</string>
+    <string name="textview11">Choose a Diet</string>
+    <string name="textview12">vegan food</string>
+    <string name="textview13">Low carb food</string>
+    <string name="textview14">high protein food</string>
+    <string name="textview19">Count Calories and choose a diet</string>
+    <string name="textview23">Water fasting is a more extended and restrictive form of fasting where only water is consumed for a specified period, ranging from 24 hours to several days or even weeks. This method requires careful planning and should be undertaken with medical supervision, especially for longer durations.</string>
+    <string name="textview25">Intermittent fasting involves cycling between periods of eating and fasting. There are several popular methods within intermittent fasting, such as the 16/8 method, which involves a daily fast for 16 hours and an eating window of 8 hours.</string>
+    <string name="textView35">Lorem ipsum dolor sit amet consectetur. Ultrices sapien neque fermentum aliquet ultrices aliquet. Quam est duis adipiscing habitant rutrum etiam lacus sit habitant. Elementum vulputate purus egestas molestie. Aliquet sagittis etiam nulla tellus convallis eu. Viverra nibh diam enim praesent.Lorem ipsum dolor sit amet consectetur. Ultrices sapien neque fermentum aliquet ultrices aliquet. Quam est duis adipiscing habitant rutrum etiam lacus sit habitant. Elementum vulputate purus egestas molestie. Aliquet sagittis etiam nulla tellus convallis eu. Viverra nibh diam enim praesent.</string>
+    <string name="textView32">Name</string>
+    <string name="textview34">About</string>
+    <string name="textView31">Low carb diet</string>
+    <string name="textview39">Salad Recepie</string>
+    <string name="textview30">Vegan diet include, Diverse plant-based protein sources Iron-rich foods with vitamin C for absorption Calcium from fortified plant milks, tofu, greens, and almonds Vitamin B12 supplementation or fortified foods Omega-3 sources like flaxseeds, chia seeds, walnuts, and algae supplements Whole grains such as brown rice, quinoa, and whole wheat Colorful fruits and vegetables for a variety of nutrients.</string>
+    <string name="textview37">How to make healthy pancakes?</string>
+    <string name="textview38"> Pancake Ingredients You likely already have everything you need to make this pancake recipe.nd richness to the pancakes. · Egg: A whole egg lends even more moisture. Plus, it helps bind the pancake batter together.</string>
+
+
+</resources>

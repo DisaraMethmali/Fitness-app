@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primarycolour"
+            android:padding="16dp">
+
+
+            <ImageView
+                android:id="@+id/backb"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/backb" />
+
+            <TextView
+                android:id="@+id/textViewCreateAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:text="Create an Account"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_below="@+id/textViewCreateAccount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/reg" />
+
+            <!-- Registration form fields -->
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextName"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Username"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextUsername"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Contact Info"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/editTextContactNumber"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextAddress"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Birth Date"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editTextGender"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextBirthDate"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Gender"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextGender"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextEmail"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editTextConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextPassword"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/register1"
+                android:layout_width="159dp"
+                android:layout_height="48dp"
+                android:layout_below="@+id/editTextConfirmPassword"
+                android:layout_marginStart="107dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/light_green"
+                android:text="Register" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

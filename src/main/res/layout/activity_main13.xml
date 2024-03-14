@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity13">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="330dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pancakes" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="57dp"
+        android:text="How to make healthy pancakes?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="323dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="66dp"
+        android:justificationMode="inter_word"
+        android:text="Pancake Ingredients You likely already have everything you need to make this pancake recipe. If not, here's what to add to your grocery list:  · Flour: This homemade pancake recipe starts with all-purpose flour. · Baking powder: Baking powder, a leavener, is the secret to fluffy pancakes. · Sugar: Just a tablespoon of white sugar is all you'll need for subtly sweet pancakes. · Salt: A pinch of salt will enhance the overall flavor without making your pancakes taste salty. · Milk and butter: Milk and butter add moisture and richness to the pancakes. · Egg: A whole egg lends even more moisture. Plus, it helps bind the pancake batter together."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <ImageView
+        android:id="@+id/backb12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="73dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView13"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
